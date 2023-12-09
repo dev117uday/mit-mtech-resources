@@ -1,0 +1,24 @@
+Design a 2D mesh network of size 3 X 3 for a SIMD computer. In your design analyze all
+the possible data routing permutations. Can you deduce it to chordal ring network? If
+yes, draw the corresponding chordal ring network and if no, give the justification why
+can’t it be deduced to chordal ring network. 
+
+Draw a diagram of 5D hypercube network. In the network label your nodes in binary.
+Identify the node degree, network diameter and channel bisection width.
+
+Discuss the multiport memory organization in multiprocessor system
+
+Write a parallel algorithm to sum n values using Shuffle-exchange SIMD model where n
+is the number of values to be added and p is the number of processors in the model. It is assumed that the each processor initially holds one of the values among n.
+
+For question 3B, assume Shuffle-exchange SIMD model with n = p = 16. Show how
+such addition happens using appropriate diagrams with suitable example. 
+
+Design an interconnection network for a SIMD computer having 16 nodes with the
+following routing functions where the address of a node shown is in binary. Also
+write the permutation cycles.
+βk (an-1 . . . ak+1 ak ak-1 . . . a1 a0) = ( an-1 . . . ak+1 a0 ak-1 . . . a1 ak )
+
+Write a parallel algorithm to sum n values in hypercube SIMD model. Given that
+n = p where n is the number of values to be added and p is the number of processors
+in the model. What is the time complexity of your algorithm
